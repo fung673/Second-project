@@ -1,7 +1,10 @@
-body {
- background: rgb(255, 255, 255);
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+ margin: 0;
+ padding: 0
+}
 
+body {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -36,11 +39,11 @@ ul li {
 }
 
 .grid {
+ margin: 20px;
  display: grid;
  justify-content: center;
  grid-template-columns: 100px 1fr 1fr 1fr 100px;
  grid-template-rows: 1fr 450px 450px;
- border: 2px solid blue;
 }
 
 .pic {
@@ -60,7 +63,7 @@ ul li {
 
 .sp1 {
  grid-column-start: 1;
- border: 0.5rem solid brown;
+ border: 0.25rem solid goldenrod;
  max-height: 450px;
 }
 
@@ -78,7 +81,7 @@ ul li {
 .sp2 {
  grid-column-start: 2;
  grid-row-start: 3;
- border: 0.5rem solid green;
+ border: 0.25rem solid goldenrod;
  max-height: 420px;
 }
 
@@ -101,8 +104,8 @@ ul li {
 footer {
  background-color: rgb(0, 0, 0);
  bottom: 0;
- height: 300px;
- border: 0.5rem rgb(255, 17, 235) solid;
+ height: 200px;
+ border: 0.1rem black solid;
  color: white;
  font-size: 1.2rem;
 
@@ -112,8 +115,9 @@ footer {
  display: flex;
  flex-direction: row;
  justify-content: space-evenly;
- height: 300px;
+ height: 200px;
  align-items: center;
+
 }
 
 .leftfoot {
@@ -129,5 +133,5 @@ footer {
 }
 
 .sf {
- font-size: 1.12rem;
+ font-size: 1rem;
 }
