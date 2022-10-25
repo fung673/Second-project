@@ -6,7 +6,24 @@ body {
 
 
 header {
+ border: 1rem solid black;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+ min-height: 150px;
+}
+
+
+.brand {
+ font-size: 5rem;
+ align-items: ;
+}
+
+#login {
  display: inline;
- background-color: black;
- height: 100px;
+}
+
+#cart {
+ display: inline;
 }
