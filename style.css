@@ -24,3 +24,12 @@ header {
 ul li {
  display: inline-block;
 }
+
+.header2 {
+ border: 0.5rem solid red;
+ font-size: 2rem;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 11rem;
+}
