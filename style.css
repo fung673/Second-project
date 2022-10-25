@@ -20,14 +20,7 @@ header {
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#login {
- display: inline;
-}
 
-#cart {
- display: inline;
-}
-
-.a123 {
+ul li {
  display: inline-block;
 }
