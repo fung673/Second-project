@@ -17,7 +17,7 @@ header {
 
 .brand {
  font-size: 5rem;
- align-items: ;
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #login {
@@ -26,4 +26,8 @@ header {
 
 #cart {
  display: inline;
+}
+
+.a123 {
+ display: inline-block;
 }
