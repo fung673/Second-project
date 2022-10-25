@@ -26,10 +26,43 @@ ul li {
 }
 
 .header2 {
+ margin-top: 0;
  border: 0.5rem solid red;
  font-size: 2rem;
  display: flex;
  flex-direction: row;
  justify-content: center;
  gap: 11rem;
+}
+
+.grid {
+ display: grid;
+ justify-content: center;
+ grid-template-columns: 100px 1fr 1fr 1fr 100px;
+ grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ border: 2px solid blue;
+}
+
+.pic {
+ max-width: 1300px;
+ justify-content: center;
+ grid-column-start: 3;
+}
+
+.smallerpic {
+ grid-column-start: 3;
+ display: grid;
+ grid-template-columns: 1fr 1fr
+}
+
+.sp1 {
+ grid-column-start: 1;
+ border: 0.5rem solid brown;
+ max-height: 450px;
+}
+
+.sp2 {
+ grid-column-start: 2;
+ border: 0.5rem solid green;
+ max-height: 450px;
 }
