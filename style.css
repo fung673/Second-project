@@ -1,5 +1,5 @@
 body {
- background: white;
+ background: rgb(255, 255, 255);
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -39,7 +39,7 @@ ul li {
  display: grid;
  justify-content: center;
  grid-template-columns: 100px 1fr 1fr 1fr 100px;
- grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ grid-template-rows: 1fr 450px 450px;
  border: 2px solid blue;
 }
 
@@ -61,8 +61,20 @@ ul li {
  max-height: 450px;
 }
 
+.caption {
+ font-size: 2rem;
+ grid-row-start: 2;
+ text-align: center;
+}
+
 .sp2 {
  grid-column-start: 2;
  border: 0.5rem solid green;
  max-height: 450px;
+}
+
+.caption2 {
+ font-size: 2rem;
+ grid-row-start: 2;
+ text-align: center;
 }
